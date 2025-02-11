@@ -1,0 +1,29 @@
+Introduction
+In this practical you will be expected to design and simulate a mini-game. 
+This practical will have 3 stages, with each stage using concepts from the previous 
+stage. Stage 1 will be the pre-practical and is important for stages 2 and 3 
+conceptually. The simulator tool that you will use for this project is Wokwi. 
+It is a new simulator but quite feature rich. 
+Arduino has a webpage on how to use Wokwi 
+(link: https://create.arduino.cc/projecthub/Hack-star-Arduino/how-to-use-wokwi-arduino-simulator-in-2022-what-is-wokwi-304e6b). 
+You can also check out Wokwi’s documentation:
+(link: https://docs.wokwi.com/?utm_source=wokw).
+
+The game - Repeat the sequence
+This is a game that you must design using 8 LEDs and 8 pushbuttons, 
+where each LED is associated with a unique pushbutton and the colour of the button is
+the same as the LED it is associated with (Hardware setup is done for you). 
+The game begins by lighting the LEDs one by one in a specific sequence. Each LED is 
+positioned next to a single pushbutton. When the sequence finishes, the user then 
+attempts to press the associated pushbuttons located next to the LEDs one by one in 
+the same sequence as shown by the LED lighting sequence. When the user presses
+a button the associated LED lights up, this must occur for each button press of 
+the user. If the user presses the buttons in the same sequence an indication that 
+they passed the level must be shown, then the next level begins. 
+The levels increase in difficulty with more complex patterns and sequences until 
+the user finishes the game at the final level or when the user gets the sequence 
+incorrect (by pressing the buttons in a different sequence than the one shown at the 
+beginning of the level).
+
+Link to instructions PDF for the practical:
+https://drive.google.com/file/d/1EXDRb9eg7IzYVH4d7uqE8CcSYUCdkB8x/view?usp=sharing
